@@ -24,7 +24,7 @@ const userSchema = new mongoose.Schema({
     }, 
     dateCreated:{
         type: Date, 
-        defeult: Date.now,
+        default: Date.now,
     },
 }, {timestamps: true});
 
